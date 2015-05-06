@@ -1,0 +1,19 @@
+<% global_options = scope['::stunnel::config::global_options'] -%>
+
+; This file is managed by Puppet.
+
+<%
+global_options.each_pair do |k, v|
+  if v.is_a?(Array)
+    v.each do |e|
+-%>
+<%= "#{k} = #{e}" %>
+<%
+    end
+  else
+-%>
+<%= "#{k} = #{v}" %>
+<%
+  end
+end
+-%>
