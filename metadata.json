@@ -1,0 +1,35 @@
+{
+  "name": "x0b00d4-stunnel",
+  "version": "1.0.0",
+  "author": "x0b00d4",
+  "summary": "A module managings SSL/TLS tunnels with stunnel",
+  "license": "MIT",
+  "source": "https://github.com/x0b00d4/puppet-stunnel",
+  "project_page": "https://github.com/x0b00d4/puppet-stunnel",
+  "issues_url": "https://github.com/x0b00d4/puppet-stunnel/issues",
+  "tags": ["stunnel", "secure", "tunnel", "tls", "ssl", "security" ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.6.0"
+    },
+    {
+      "name": "puppetlabs/concat",
+      "version_requirement": ">= 1.2.1"
+    },
+    {
+      "name": "electrical/file_concat",
+      "version_requirement": ">= 1.0.1"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"CentOS",
+      "operatingsystemrelease":[ "7.0", "6.0" ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "14.04", "12.04" ]
+    }
+  ]
+}
