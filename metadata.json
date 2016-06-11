@@ -1,12 +1,12 @@
 {
-  "name": "focus-stunnel",
-  "version": "1.0.0",
-  "author": "focus",
+  "name": "srozzo-stunnel",
+  "version": "1.0.1",
+  "author": "srozzo",
   "summary": "A module managings SSL/TLS tunnels with stunnel",
   "license": "MIT",
-  "source": "https://github.com/x0b00d4/puppet-stunnel",
-  "project_page": "https://github.com/x0b00d4/puppet-stunnel",
-  "issues_url": "https://github.com/x0b00d4/puppet-stunnel/issues",
+  "source": "https://github.com/srozzo/puppet-stunnel",
+  "project_page": "https://github.com/srozzo/puppet-stunnel",
+  "issues_url": "https://github.com/srozzo/puppet-stunnel/issues",
   "tags": ["stunnel", "secure", "tunnel", "tls", "ssl", "security" ],
   "dependencies": [
     {

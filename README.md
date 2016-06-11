@@ -157,4 +157,4 @@ This module has been tested on:
 Submit a pull request, and unit tests for any new functionality.
 
 ##Contributors
-* focus
+* srozzo

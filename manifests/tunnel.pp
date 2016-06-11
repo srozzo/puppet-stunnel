@@ -3,8 +3,6 @@
 
 define stunnel::tunnel ($options) {
 
-  assert_private()
-
   validate_hash($options)
 
   concat::fragment { $name :
