@@ -15,11 +15,11 @@
     },
     {
       "name": "puppetlabs/concat",
-      "version_requirement": "1.x"
+      "version_requirement": ">= 1.0"
     },
     {
       "name": "electrical/file_concat",
-      "version_requirement": ">= 1.0"
+      "version_requirement": "1.x"
     }
   ],
   "operatingsystem_support": [
